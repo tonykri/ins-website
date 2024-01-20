@@ -1,0 +1,111 @@
+@import url('../variables.css');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.nav {
+    position: fixed;
+    background-color: trasparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+    background-color: var(--text-color);
+    box-shadow: 0px 5px 5px rgba(245, 245, 245, 0.6);
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+
+.nav .container .logo {
+    margin-left: 40px;
+}
+
+.nav-btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .container .open-btn {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-right: 40px;
+}
+.nav .container .open-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav.active .container .open-btn {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nav.active .container .open-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.hidden {
+    display: none;
+}
+
+.nav-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(68, 21, 84, 0.8);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    max-width: 480px;
+    min-width: 320px;
+    transition-delay: 0s;
+    z-index: 1000;
+}
+.nav-open.visible {
+    transform: translateX(0);
+}
+
+.nav-open .header {
+    background-color: trasparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    transition: all 0.3s ease-in-out;
+}
+.nav-open .header.active {
+    padding: 10px 0;
+}
+
+.nav-open .close-btn {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-right: 20px;
+}
+.nav-open .close-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-open .list li {
+    margin: 20px 10px;
+}
+
+.nav-open .list li a {
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+  }

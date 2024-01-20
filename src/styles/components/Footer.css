@@ -1,0 +1,44 @@
+@import url('../variables.css');
+
+footer {
+    margin-top: auto;
+    background-color: var(--bg-footer-color);
+}
+
+.bar {
+    background-color: var(--bg-bar-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.bar .item {
+    padding: 0 10px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+.bar .item:hover {
+    transform: scale(1.05);
+}
+.bar span {
+    margin-left: 5px;
+}
+.bar .separator {
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info .item {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: red;
+}
