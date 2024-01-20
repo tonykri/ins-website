@@ -14,7 +14,7 @@ export default function NavBar() {
 
         const handleScroll = () => {
             if (nav === null) return;
-            if (window.scrollY > nav.offsetHeight + 150) {
+            if (window.scrollY > nav.offsetHeight) {
                 setIsNavActive(true);
             } else {
                 setIsNavActive(false);

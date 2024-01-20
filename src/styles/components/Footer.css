@@ -37,8 +37,37 @@ footer {
     align-items: center;
 }
 .info .item {
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    background-color: red;
+    height: 200px;
+    width: 300px;
+    margin: 30px 40px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info #info p {
+    margin-bottom: 30px;
+}
+
+.info #contact i {
+    margin-right: 5px;
+}
+
+.info #contact #data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info .item #copyrights {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 770px) {
+    .info {
+        flex-direction: column;
+    }
 }
