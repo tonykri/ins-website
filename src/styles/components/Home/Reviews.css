@@ -1,0 +1,58 @@
+@import url('../../variables.css');
+
+.reviews {
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.reviews h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.reviews .reviews-wrapper {
+    padding-bottom: 30px;
+    padding-inline: 10px;
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.reviews .review-card {
+    cursor: grab;
+    width: full;
+    height: 250px;
+    background-color: var(--bg-footer-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.reviews .review-card .review-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews .review-card .small-opacity {
+    opacity: 0.6;
+}
+
+.reviews .review-card .review-item .star {
+    color: yellow;
+}
+
+.reviews .review-card .review-item #name-profession {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

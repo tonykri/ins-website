@@ -7,6 +7,7 @@ import Portfolio from "@/components/Home/Portfolio";
 import Services from "@/components/Home/Services";
 import Brands from "@/components/Home/Brands";
 import ProgressSteps from "@/components/Home/ProgressSteps";
+import Reviews from "@/components/Home/Reviews";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Portfolio/>
         <Services/>
         <ProgressSteps/>
+        <Reviews/>
         <Footer/>
       </>
     );
