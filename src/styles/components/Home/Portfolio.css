@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .portfolio .info {
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 600px;
-    margin: 30px 0;
+    margin: 30px 10px;
 }
 .portfolio .info h2 {
     font-size: 50px;

@@ -1,0 +1,29 @@
+@import url('../../variables.css');
+
+
+.brands {
+    align-self: center;
+    background-color: transparent;
+    overflow: hidden;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands .brands-wrapper {
+    padding-bottom: 30px;
+    padding-inline: 10px;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.brands .item {
+    opacity: 0.6;
+    transition: all 0.5s ease-in-out;
+}
+.brands .item:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}

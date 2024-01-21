@@ -24,10 +24,16 @@ main .sentences span {
     main .sentences {
         font-size: 20px;
     }
+    main {
+        height: 50vh;
+    }
 }
 @media (min-width: 501px) and (max-width: 700px) {
     main .sentences {
         font-size: 30px;
+    }
+    main {
+        height: 50vh;
     }
 }
 @media (min-width: 701px) and (max-width: 900px) {
