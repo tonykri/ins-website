@@ -107,6 +107,5 @@
 .nav-open .list li a {
     font-size: 14px;
     color: var(--text-color);
-    text-decoration: none;
     text-transform: uppercase;
   }
