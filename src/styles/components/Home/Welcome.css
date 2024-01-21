@@ -8,11 +8,15 @@ main {
 }
 
 main .sentences {
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+main .sentences .typing-sentence {
+    display: flex;
 }
 
 main .sentences span {
@@ -22,15 +26,17 @@ main .sentences span {
 
 @media (max-width: 500px) {
     main .sentences {
-        font-size: 20px;
+        font-size: 15px;
+        padding-top: 25%;
     }
     main {
-        height: 50vh;
+        height: 40vh;
     }
 }
 @media (min-width: 501px) and (max-width: 700px) {
     main .sentences {
-        font-size: 30px;
+        font-size: 25px;
+        padding-top: 25%;
     }
     main {
         height: 50vh;
@@ -38,16 +44,17 @@ main .sentences span {
 }
 @media (min-width: 701px) and (max-width: 900px) {
     main .sentences {
-        font-size: 40px;
+        font-size: 30px;
+        padding-top: 15%;
     }
 }
 @media (min-width: 901px) and (max-width: 1000px) {
     main .sentences {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 @media (min-width: 1001px) and (max-width: 1200px) {
     main .sentences {
-        font-size: 50px;
+        font-size: 40px;
     }
 }

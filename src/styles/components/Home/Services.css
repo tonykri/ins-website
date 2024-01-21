@@ -103,9 +103,7 @@
     cursor: pointer;
 }
 
-
 .services .service-card div ul {
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 3px;

@@ -27,3 +27,9 @@
     transform: scale(1.05);
     opacity: 1;
 }
+
+@media (max-width: 500px) {
+    .brands {
+        margin-bottom: 10vh;
+    }
+}

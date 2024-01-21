@@ -10,11 +10,8 @@ export default function NavBar() {
     const [openBtnClass, setOpenBtnClass] = useState("nav-btn open-btn");
 
     useEffect(() => {
-        const nav: HTMLElement | null = document.querySelector('.nav')
-
         const handleScroll = () => {
-            if (nav === null) return;
-            if (window.scrollY > nav.offsetHeight) {
+            if (window.scrollY > 2) {
                 setIsNavActive(true);
             } else {
                 setIsNavActive(false);

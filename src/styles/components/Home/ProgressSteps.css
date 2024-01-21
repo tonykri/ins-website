@@ -1,0 +1,127 @@
+@import url('../../variables.css');
+
+.progress-steps {
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.progress-steps .faded {
+    opacity: 0.6;
+    padding-top: 8px;
+}
+
+.progress-steps h2 {
+    font-size: 50px;
+}
+
+.progress-steps .data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.progress-steps .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.progress-steps .container .progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.progress-steps .container .progress-container .progress {
+    background-color: var(--text-color);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 99%;
+    z-index: -1;
+}
+
+.progress-steps .container .progress-container .circle {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--text-color);
+    color: var(--black-color);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--bg-down-color);
+}
+
+.progress-steps .content {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    max-width: 1200px;
+}
+
+.progress-steps .content .content-item {
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .progress-steps .data {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .progress-steps .container {
+        width: 20%;
+        height: 90%;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .progress-steps .container .progress-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .progress-steps .container .progress-container .progress {
+        background-color: var(--text-color);
+        position: absolute;
+        left: 50%;
+        height: 100%;
+        width: 4px;
+        z-index: -1;
+    }
+
+    .progress-steps .content {
+        flex-direction: column;
+        width: 70%;
+        height: 100%;
+    }
+
+    .progress-steps .content .content-item {
+        width: 100%;
+        height: 25%;
+    }
+}
