@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import Image from 'next/image';
-import "../../styles/components/Home/Reviews.css";
+import "../../styles/components/HomePage/Reviews.css";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 

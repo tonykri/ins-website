@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../../styles/components/Home/Portfolio.css";
+import "../../styles/components/HomePage/Portfolio.css";
 import Link from "next/link";
 
 

@@ -1,4 +1,4 @@
-import "../../styles/components/Home/ProgressSteps.css";
+import "../../styles/components/HomePage/ProgressSteps.css";
 
 
 export default function ProgressSteps() {

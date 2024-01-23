@@ -28,7 +28,7 @@
 .portfolio .info button {
     margin-top: 20px;
     font-size: 18px;
-    background-color: var(--bg-footer-color);
+    background-color: var(--bg-purple-color);
     text-decoration: none;
     color: #fff;
     padding: 10px;
@@ -37,7 +37,7 @@
     transition: all 0.5s ease-in-out;
 }
 .portfolio .info button:hover {
-    background-color: var(--bg-bar-color);
+    background-color: var(--bg-dark-purple-color);
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-footer-color);
+    background-color: var(--bg-purple-color);
     padding: 5px;
     margin: 20px 0;
     max-width: 1200px;

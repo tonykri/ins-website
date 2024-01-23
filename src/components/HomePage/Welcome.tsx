@@ -1,4 +1,4 @@
-import "../../styles/components/Home/Welcome.css";
+import "../../styles/components/HomePage/Welcome.css";
 import Typewriter from 'typewriter-effect';
 
 export default function Welcome() {

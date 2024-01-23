@@ -95,6 +95,10 @@
     padding: 10px 0;
 }
 
+.nav-open .header .logo {
+    margin-left: 40px;
+}
+
 .nav-open .close-btn {
     background-color: rgba(255, 255, 255, 0.4);
     margin-right: 40px;
@@ -112,7 +116,8 @@
 }
 
 .nav-open .list li a {
-    font-size: 14px;
+    font-size: 18px;
     color: var(--text-color);
     text-transform: uppercase;
-  }
+    margin-left: 40px;
+}

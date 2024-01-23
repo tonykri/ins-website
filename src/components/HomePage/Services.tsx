@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Slider from 'react-slick';
-import "../../styles/components/Home/Services.css";
+import "../../styles/components/HomePage/Services.css";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 

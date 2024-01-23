@@ -2,11 +2,11 @@
 
 footer {
     margin-top: auto;
-    background-color: var(--bg-footer-color);
+    background-color: var(--bg-purple-color);
 }
 
 .bar {
-    background-color: var(--bg-bar-color);
+    background-color: var(--bg-dark-purple-color);
     display: flex;
     justify-content: center;
     align-items: center;

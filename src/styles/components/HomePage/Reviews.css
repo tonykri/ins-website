@@ -13,6 +13,7 @@
 .reviews h2 {
     font-size: 50px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .reviews .reviews-wrapper {
@@ -26,7 +27,7 @@
     cursor: grab;
     width: full;
     height: 250px;
-    background-color: var(--bg-footer-color);
+    background-color: var(--bg-purple-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
