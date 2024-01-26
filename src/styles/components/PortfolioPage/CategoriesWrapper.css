@@ -1,0 +1,38 @@
+@import url('../../variables.css');
+
+.categories {
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.categories .categories-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 30px 10px;
+}
+.categories .categories-info h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.categories .categories-info p {
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.categories .categories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}

@@ -1,0 +1,62 @@
+@import url('../../variables.css');
+
+.category {
+    background-image: url("https://images.unsplash.com/photo-1592311675507-00555370829d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.category .category-body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    box-sizing: border-box;
+    right: -100%;
+    transition: 0.5s;
+}
+.category:hover .category-body {
+    right: 0;
+}
+
+.category .category-body h1 {
+    font-size: 40px;
+}
+
+.category .category-body p {
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category .category-body button {
+    background: #1f3d4738;
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--bg-purple-color);
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.category .category-body button:hover {
+    background-color: var(--bg-dark-purple-color);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@media (max-width: 1100px) {
+    .category .category-body {
+        right: 0;
+    }
+}

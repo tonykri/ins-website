@@ -75,6 +75,7 @@ export default function NavBar() {
 
                 <ul className="list">
                     <li><Link href="/faq">FAQ</Link></li>
+                    <li><Link href="/portfolio">Portfolio</Link></li>
                     <li><Link href="#">Services</Link></li>
                     <li><Link href="#">Contact</Link></li>
                 </ul>
