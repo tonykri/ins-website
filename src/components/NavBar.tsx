@@ -78,6 +78,7 @@ export default function NavBar() {
                     <li><Link href="/portfolio">Portfolio</Link></li>
                     <li><Link href="#">Services</Link></li>
                     <li><Link href="#">Contact</Link></li>
+                    <li><Link href="/about">About</Link></li>
                 </ul>
             </div>
         </header>

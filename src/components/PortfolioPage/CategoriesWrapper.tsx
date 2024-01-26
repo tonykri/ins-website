@@ -13,7 +13,7 @@ export default function CategoriesWrapper() {
         { id: 8, title: "Category 8", description: "You can find photos and videos here about current category. Have a look and read about each service in services page" }
     ]
     return (
-        <main className="categories">
+        <section className="categories">
             <div className="categories-info">
                 <h2>Portfolio</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi provident ullam at itaque corrupti reprehenderit recusandae tempore? Similique commodi voluptatem odit tenetur maxime saepe quasi enim exercitationem illo, esse nulla.</p>
@@ -21,6 +21,6 @@ export default function CategoriesWrapper() {
             <div className="categories-wrapper">
                 {categories.map((category) => <Category key={category.id} id={category.id} title={category.title} description={category.description} />)}
             </div>
-        </main>
+        </section>
     );
 }
