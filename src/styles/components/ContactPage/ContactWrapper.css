@@ -1,0 +1,32 @@
+@import url('../../variables.css');
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    height: fit-content;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+@media (max-width: 770px) {
+    .contact main {
+        flex-direction: column;
+    }
+}
