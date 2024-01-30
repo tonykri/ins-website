@@ -51,7 +51,7 @@ export default function Services() {
             <div className="info">
                 <h2>Services</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi provident ullam at itaque corrupti reprehenderit recusandae tempore? Similique commodi voluptatem odit tenetur maxime saepe quasi enim exercitationem illo, esse nulla.</p>
-                <button><Link href="#">Explore More</Link></button>
+                <button><Link href="/services">Explore More</Link></button>
             </div>
             <div className="service-wrapper">
                 <Slider {...settings}>

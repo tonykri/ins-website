@@ -41,7 +41,7 @@ export default function Portfolio() {
             <div className="info">
                 <h2>Portfolio</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi provident ullam at itaque corrupti reprehenderit recusandae tempore? Similique commodi voluptatem odit tenetur maxime saepe quasi enim exercitationem illo, esse nulla.</p>
-                <button><Link href="#">Explore More</Link></button>
+                <button><Link href="/portfolio">Explore More</Link></button>
             </div>
             <main className="images">
                 <div className="container">

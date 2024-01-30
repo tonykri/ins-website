@@ -49,6 +49,7 @@ export default function ContactForm() {
                                 name="firstName"
                                 value={formData.firstName}
                                 onChange={handleChange}
+                                autoComplete="given-name"
                                 required
                             />
                         </label>
@@ -60,6 +61,7 @@ export default function ContactForm() {
                                 name="lastName"
                                 value={formData.lastName}
                                 onChange={handleChange}
+                                autoComplete="family-name"
                                 required
                             />
                         </label>
@@ -71,6 +73,7 @@ export default function ContactForm() {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
+                                autoComplete="email"
                                 required
                             />
                         </label>
@@ -82,6 +85,7 @@ export default function ContactForm() {
                                 name="phoneNumber"
                                 value={formData.phoneNumber}
                                 onChange={handleChange}
+                                autoComplete="tel"
                                 required
                             />
                         </label>

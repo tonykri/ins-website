@@ -14,7 +14,7 @@ export default function About() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore soluta voluptatibus corporis voluptates temporibus, deserunt officia fugit? Corrupti cupiditate quas provident numquam nesciunt magni? Quia sapiente nemo enim distinctio.
                         </p>
                     </div>
-                    <button><Link href="#">Services</Link></button>
+                    <button><Link href="/services">Services</Link></button>
                 </main>
                 <div className="image">
 
