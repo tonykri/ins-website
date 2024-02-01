@@ -1,0 +1,60 @@
+@import url('../../../variables.css');
+
+.real-estate {
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.real-estate .item .videos, .real-estate .item .photos {
+    padding-bottom: 30px;
+    padding-inline: 10px;
+    width: 150vw;
+    margin-bottom: 30px;
+}
+
+.real-estate .item .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.real-estate .item .videos .video {
+    cursor: grab;
+    width: full;
+    height: auto;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 0px; 
+    box-sizing: border-box; 
+}
+.video-test {
+    border-radius: 10px;
+}
+
+.real-estate .item .photos .photo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: grab;
+    width: full;
+    height: 500px;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 0px; 
+    box-sizing: border-box; 
+}
+
+@media (max-width: 1100px) {
+    .real-estate .item .videos, .real-estate .item .photos {
+        width: 100vw;
+    }
+}
